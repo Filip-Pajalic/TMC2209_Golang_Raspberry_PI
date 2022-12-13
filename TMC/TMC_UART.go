@@ -11,7 +11,7 @@ import (
 )
 
 type TMC_UART struct {
-	mtr_ids               int32
+	mtr_id                int32
 	ser                   *int32
 	r_frame               []int32
 	w_frame               []int32
